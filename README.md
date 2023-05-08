@@ -1,10 +1,10 @@
 # **Currency converter**
-[Click here to use currency converter] (https://kajakopczynska.github.io/currency-exchange-program-react/)
+[Click here to use military units converter] (https://kajakopczynska.github.io/military-units-converter/)
 
 ## **How it works**
-![Calculator GIF](https://github.com/KajaKopczynska/military-units-converter/blob/main/public/militaty-units.converter.gif)
+![Converter GIF](https://github.com/KajaKopczynska/military-units-converter/blob/main/public/militaty-units.converter.gif)
 
-You can convert the value of currencies such as PLN, EUR and USD. 
+Count how many resources you need to recruit military units in Tribal Wars. Select the type of military units and enter their number.
 
  ## **Technologies used in the project**
 To create the application I have used:

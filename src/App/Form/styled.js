@@ -36,13 +36,12 @@ export const Button = styled.button`
     color: #222;
     width: 200px;
     background: #8D7C58;
-    box-shadow: 3px 3px 12px #616161,
-        -3px -3px 6px #616161;
+    box-shadow: 2px 2px 5px #616161,
+        -2px -2px 5px #616161;
     transition: 0.3s;
 
     &:hover {
     color: #eee;
-    border-radius: 5px;
     background: #726A5A;
     }
 `;
@@ -67,7 +66,5 @@ export const StyledResult = styled.div`
     color: #222;
     border-radius: 5px;
     background: #EDE8DE;
-    box-shadow: inset 5px 5px 12px #616161,
-        inset -5px -5px 12px #616161;
     text-align: left;
 `;

@@ -1,0 +1,81 @@
+
+
+export const militaryUnits = [
+    {
+        short: "Pik",
+        name: "Pikinier",
+        wood: 50,
+        clay: 30,
+        iron: 10,
+    },
+    {
+        short: "Miecz",
+        name: "Miecznik",
+        wood: 30,
+        clay: 30,
+        iron: 70,
+    },
+    {
+        short: "Topór",
+        name: "Topornik",
+        wood: 60,
+        clay: 30,
+        iron: 40,
+    },
+    {
+        short: "Łuk",
+        name: "Łucznik",
+        wood: 100,
+        clay: 30,
+        iron: 60,
+    },
+    {
+        short: "Zwiad",
+        name: "Zwiadowca",
+        wood: 50,
+        clay: 50,
+        iron: 20,
+    },
+    {
+        short: "LK",
+        name: "Lekki Kawalerzysta",
+        wood: 125,
+        clay: 100,
+        iron: 250,
+    },
+    {
+        short: "ŁK",
+        name: "Łucznik na koniu",
+        wood: 250,
+        clay: 100,
+        iron: 150,
+    },
+    {
+        short: "CK",
+        name: "Ciężki kawalerzysta",
+        wood: 200,
+        clay: 150,
+        iron: 600,
+    },
+    {
+        short: "Taran",
+        name: "Taran",
+        wood: 300,
+        clay: 200,
+        iron: 200,
+    },
+    {
+        short: "Katapulta",
+        name: "Katapulta",
+        wood: 320,
+        clay: 400,
+        iron: 100,
+    },
+    {
+        short: "Szlachcic",
+        name: "Szlachcic",
+        wood: 40000,
+        clay: 50000,
+        iron: 50000,
+    },
+];

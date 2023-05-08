@@ -13,9 +13,9 @@ export const GlobalStyle = createGlobalStyle`
     #root {
          font-family: 'Montserrat', sans-serif;
          display: flex;
-         align-items: center;
+         align-items: flex-start;
          justify-content: center;
-         min-height: 70vh;
+         min-height: 100vh;
          background-image: url("${background}");
          background-repeat: no-repeat;
          background-size: cover;

@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
          background-position: center;
          margin: 0 auto;
          text-align: center;
-         color: #000000;
+         color: #222;
          line-height: 2;
          font-size: 16px;
          font-weight: 400;

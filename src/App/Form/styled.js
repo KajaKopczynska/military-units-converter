@@ -6,7 +6,7 @@ export const StyledForm = styled.form`
     padding: 5px;
     max-width: 330px;
     height: 455px;
-    border-radius: 20px;
+    border-radius: 5px;
     background: #D5C9AF;
     box-shadow: 10px 10px 49px #000000,
         -10px -10px 49px #616161;
@@ -33,8 +33,7 @@ export const Button = styled.button`
     margin: 10px;
     font-weight: bold;
     border-radius: 5px;
-    color: #000000;
-    border-radius: 5px;
+    color: #222;
     width: 200px;
     background: #8D7C58;
     box-shadow: 3px 3px 12px #616161,
@@ -53,7 +52,6 @@ export const Amount = styled.input`
     width: 150px;
     height: 30px;
     border: none;
-    border-radius: 5px;
     background: #EDE8DE;
     padding-left: 15px;
 `;
@@ -66,8 +64,8 @@ export const StyledResult = styled.div`
     line-height: 1;
     margin-bottom: 20px;
     margin-top: 20px;
-    color: #000000;
-    border-radius: 10px;
+    color: #222;
+    border-radius: 5px;
     background: #EDE8DE;
     box-shadow: inset 5px 5px 12px #616161,
         inset -5px -5px 12px #616161;

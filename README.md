@@ -2,7 +2,7 @@
 [Click here to use currency converter] (https://kajakopczynska.github.io/currency-exchange-program-react/)
 
 ## **How it works**
-![Calculator GIF](https://github.com/KajaKopczynska/currency-exchange-program-react/blob/main/public/militaty-units.converter.gif)
+![Calculator GIF](https://github.com/KajaKopczynska/militaty-units.converter/blob/main/public/militaty-units.converter.gif)
 
 You can convert the value of currencies such as PLN, EUR and USD. 
 

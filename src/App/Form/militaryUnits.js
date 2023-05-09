@@ -1,36 +1,34 @@
-
-
 export const militaryUnits = [
     {
-        short: "Pik",
+        short: "Pikinier",
         name: "Pikinier",
         wood: 50,
         clay: 30,
         iron: 10,
     },
     {
-        short: "Miecz",
+        short: "Miecznik",
         name: "Miecznik",
         wood: 30,
         clay: 30,
         iron: 70,
     },
     {
-        short: "Topór",
+        short: "Topornik",
         name: "Topornik",
         wood: 60,
         clay: 30,
         iron: 40,
     },
     {
-        short: "Łuk",
+        short: "Łucznik",
         name: "Łucznik",
         wood: 100,
         clay: 30,
         iron: 60,
     },
     {
-        short: "Zwiad",
+        short: "Zwiadowca",
         name: "Zwiadowca",
         wood: 50,
         clay: 50,

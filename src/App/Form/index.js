@@ -51,23 +51,24 @@ const Form = () => {
 
     return (
         <StyledForm onSubmit={onFormSubmit}>
-            <Header> Przelicznik surowców i jednostek </Header>
+            <Header> Przelicznik surowców<br></br>i jednostek </Header>
             <>
                 <p>
                     <label>
                         <span>
-                            Wybierz jednostki i pisz ich liczbę:
+                            Wybierz jednostki i wpisz ich liczbę:
                         </span>
                         <br></br>
-
                         <Currency
                             value={militaryUnits.short}
                             onChange={onCalculateMaterials}
                         >
-                            {militaryUnits.map(unit => (<option key={unit.short}>{unit.short}</option>))};
+                            {militaryUnits.map(unit => (
+                                <option key={unit.name}>
+                                    {unit.short}
+                                </option>
+                            ))};
                         </Currency>
-
-
                         <Amount
                             onChange={({ target }) => setAmount(target.value)}
                             type="number"
@@ -77,9 +78,7 @@ const Form = () => {
                             required
                         />
                     </label>
-
                 </p>
-
                 <p>
                     <Button> Przelicz</Button>
                 </p>
@@ -90,7 +89,6 @@ const Form = () => {
             </>
         </StyledForm >
     );
-
 };
 
 export default Form;

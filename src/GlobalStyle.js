@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     #root {
-         font-family: 'Montserrat', sans-serif;
+         font-family: 'Jost', sans-serif;
          display: flex;
          align-items: flex-start;
          justify-content: center;

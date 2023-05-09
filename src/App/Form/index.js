@@ -1,7 +1,10 @@
 import { useState } from 'react';
-
 import { StyledForm, Header, Currency, Button, Amount, StyledResult } from "./styled";
 import { militaryUnits } from './militaryUnits';
+import woodIcon from "./icons/Drewno.png";
+import clayIcon from "./icons/Glina.png";
+import ironIcon from "./icons/Żelazo.png";
+
 
 const Form = () => {
 
@@ -37,9 +40,9 @@ const Form = () => {
             {!!result && (
                 <>
                     <strong>
-                        {result.woodAmount}&nbsp;{"drewna"}<br></br>
-                        {result.clayAmount}&nbsp;{"gliny"}<br></br>
-                        {result.ironAmount}&nbsp;{"żelaza"}
+                        {result.woodAmount}&nbsp;{<img src={woodIcon} alt="drewna" />}<br></br>
+                        {result.clayAmount}&nbsp;{<img src={clayIcon} alt="gliny" />}<br></br>
+                        {result.ironAmount}&nbsp;{<img src={ironIcon} alt="żelaza" />}
                     </strong>
                 </>
             )}

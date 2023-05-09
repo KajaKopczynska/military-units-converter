@@ -40,9 +40,9 @@ const Form = () => {
             {!!result && (
                 <>
                     <strong>
-                        {result.woodAmount}&nbsp;{<img src={woodIcon} alt="drewna" />}<br></br>
-                        {result.clayAmount}&nbsp;{<img src={clayIcon} alt="gliny" />}<br></br>
-                        {result.ironAmount}&nbsp;{<img src={ironIcon} alt="żelaza" />}
+                        {result.woodAmount.toLocaleString('pl-PL', { useGrouping: 'true' })}&nbsp;{<img src={woodIcon} alt="drewna" />}<br></br>
+                        {result.clayAmount.toLocaleString('pl-PL', { useGrouping: 'true' })}&nbsp;{<img src={clayIcon} alt="gliny" />}<br></br>
+                        {result.ironAmount.toLocaleString('pl-PL', { useGrouping: 'true' })}&nbsp;{<img src={ironIcon} alt="żelaza" />}
                     </strong>
                 </>
             )}

@@ -2,7 +2,7 @@
 [Click here to use military units converter] (https://kajakopczynska.github.io/military-units-converter/)
 
 ## **How it works**
-![Converter GIF](https://github.com/KajaKopczynska/military-units-converter/blob/main/public/militaty-units.converter.gif)
+![Converter GIF](https://github.com/KajaKopczynska/military-units-converter/blob/main/public/militaty-units.converter2.gif)
 
 Count how many resources you need to recruit military units in Tribal Wars. Select the type of military units and enter their number.
 

@@ -6,7 +6,6 @@ export const StyledForm = styled.form`
     padding: 5px;
     max-width: 330px;
     height: 455px;
-    border-radius: 5px;
     background: #D5C9AF;
     box-shadow: 10px 10px 49px #000000,
         -10px -10px 49px #616161;
@@ -17,18 +16,24 @@ export const StyledForm = styled.form`
 `;
 
 export const Header = styled.h1`
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
 `;
 
 export const Currency = styled.select`
     margin: 10px;
-    padding: 5px;
     width: 80px;
     height: 30px;
-    border: none;
-    border-radius: 5px;
     background: #F1EEE9;
+    border: 3px solid brown;
+    border-image: url(https://dspl.innogamescdn.com/asset/c1748d3c/graphic/start2/border-input.jpg) 3 repeat;
+`;
+
+export const Amount = styled.input`
+    width: 150px;
+    height: 30px;
+    background: #EDE8DE;
+    padding-left: 15px;
     border: 3px solid brown;
     border-image: url(https://dspl.innogamescdn.com/asset/c1748d3c/graphic/start2/border-input.jpg) 3 repeat;
 `;
@@ -38,7 +43,6 @@ export const Button = styled.button`
     padding: 10px;
     margin: 10px;
     font-weight: bold;
-    border-radius: 5px;
     color: #222;
     width: 200px;
     background: #8D7C58;
@@ -54,17 +58,6 @@ export const Button = styled.button`
     }
 `;
 
-export const Amount = styled.input`
-    border-radius: 5px;
-    width: 150px;
-    height: 30px;
-    border: none;
-    background: #EDE8DE;
-    padding-left: 15px;
-    border: 3px solid brown;
-    border-image: url(https://dspl.innogamescdn.com/asset/c1748d3c/graphic/start2/border-input.jpg) 3 repeat;
-`;
-
 export const StyledResult = styled.div`
     margin: 0 auto;
     padding: 10px;
@@ -74,7 +67,6 @@ export const StyledResult = styled.div`
     margin-bottom: 20px;
     margin-top: 20px;
     color: #222;
-    border-radius: 5px;
     background: #EDE8DE;
     text-align: left;
     border: 3px solid brown;

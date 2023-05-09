@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/military-units-converter/static/js/main.ddf054dc.js",
+    "main.js": "/military-units-converter/static/js/main.fa320212.js",
     "static/js/787.9627394a.chunk.js": "/military-units-converter/static/js/787.9627394a.chunk.js",
-    "static/media/background.jpg": "/military-units-converter/static/media/background.fc8734597640df87f0c6.jpg",
+    "static/media/background2.jpg": "/military-units-converter/static/media/background2.4c2c921f27644ab8183e.jpg",
     "index.html": "/military-units-converter/index.html",
-    "main.ddf054dc.js.map": "/military-units-converter/static/js/main.ddf054dc.js.map",
+    "main.fa320212.js.map": "/military-units-converter/static/js/main.fa320212.js.map",
     "787.9627394a.chunk.js.map": "/military-units-converter/static/js/787.9627394a.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ddf054dc.js"
+    "static/js/main.fa320212.js"
   ]
 }

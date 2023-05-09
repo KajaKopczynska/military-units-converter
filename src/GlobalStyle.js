@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import background from "./background.jpg";
+import background from "./background2.jpg";
 
 export const GlobalStyle = createGlobalStyle`
     html {
@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
          background-image: url("${background}");
          background-repeat: no-repeat;
          background-size: cover;
-         background-position: center;
+         background-position: 50% 20%;
          margin: 0 auto;
          text-align: center;
          color: #222;

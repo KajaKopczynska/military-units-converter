@@ -17,7 +17,7 @@ const Form = () => {
         calculateResult(amount, unit);
     };
 
-    const onCalculateMaterials = ({ target }) => {
+    const onChangeUnit = ({ target }) => {
         const selectUnit = militaryUnits.find(unit => unit.short === target.value);
         setUnit(selectUnit);
     };
@@ -40,8 +40,8 @@ const Form = () => {
             {!!result && (
                 <>
                     <strong>
-                        {result.woodAmount.toLocaleString('pl-PL', { useGrouping: 'true' })}&nbsp;{<img src={woodIcon} alt="drewna" />}<br></br>
-                        {result.clayAmount.toLocaleString('pl-PL', { useGrouping: 'true' })}&nbsp;{<img src={clayIcon} alt="gliny" />}<br></br>
+                        {result.woodAmount.toLocaleString('pl-PL', { useGrouping: 'true' })}&nbsp;{<img src={woodIcon} alt="drewna" />}<br />
+                        {result.clayAmount.toLocaleString('pl-PL', { useGrouping: 'true' })}&nbsp;{<img src={clayIcon} alt="gliny" />}<br />
                         {result.ironAmount.toLocaleString('pl-PL', { useGrouping: 'true' })}&nbsp;{<img src={ironIcon} alt="żelaza" />}
                     </strong>
                 </>
@@ -61,7 +61,7 @@ const Form = () => {
                         <br></br>
                         <Unit
                             value={militaryUnits.short}
-                            onChange={onCalculateMaterials}
+                            onChange={onChangeUnit}
                         >
                             {militaryUnits.map(unit => (
                                 <option key={unit.name}>

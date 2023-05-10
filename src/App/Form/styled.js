@@ -21,7 +21,7 @@ export const Header = styled.h1`
     line-height: 1.4;
 `;
 
-export const Currency = styled.select`
+export const Unit = styled.select`
     margin: 10px;
     width: 110px;
     height: 30px;

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { StyledForm, Header, Currency, Button, Amount, StyledResult } from "./styled";
+import { StyledForm, Header, Unit as Unit, Button, Amount, StyledResult } from "./styled";
 import { militaryUnits } from './militaryUnits';
 import woodIcon from "./icons/Drewno.png";
 import clayIcon from "./icons/Glina.png";
@@ -51,7 +51,7 @@ const Form = () => {
 
     return (
         <StyledForm onSubmit={onFormSubmit}>
-            <Header> Przelicznik surowców<br></br>i jednostek </Header>
+            <Header> Przelicznik surowców<br />i jednostek </Header>
             <>
                 <p>
                     <label>
@@ -59,7 +59,7 @@ const Form = () => {
                             Wybierz jednostki i wpisz ich liczbę:
                         </span>
                         <br></br>
-                        <Currency
+                        <Unit
                             value={militaryUnits.short}
                             onChange={onCalculateMaterials}
                         >
@@ -68,7 +68,7 @@ const Form = () => {
                                     {unit.short}
                                 </option>
                             ))};
-                        </Currency>
+                        </Unit>
                         <Amount
                             onChange={({ target }) => setAmount(target.value)}
                             type="number"

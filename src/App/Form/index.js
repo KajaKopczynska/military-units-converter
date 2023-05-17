@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { StyledForm, Header, Unit as Unit, Button, Amount, StyledResult } from "./styled";
+import { StyledForm, Header, Unit, Button, Amount, StyledResult } from "./styled";
 import { militaryUnits } from './militaryUnits';
 import woodIcon from "./icons/Drewno.png";
 import clayIcon from "./icons/Glina.png";

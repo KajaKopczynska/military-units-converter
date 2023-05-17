@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { useCurrentDate } from "./useCurrentDate";
 import { StyledClock } from "./styled";
 

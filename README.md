@@ -1,22 +1,26 @@
-# **Currency converter**
-[Click here to use military units converter] (https://kajakopczynska.github.io/military-units-converter/)
-
-## **How it works**
-![Converter GIF](https://github.com/KajaKopczynska/military-units-converter/blob/main/public/militaty-units.converter2.gif)
-
+# **Tribal Wars Unit Converter**
 Count how many resources you need to recruit military units in Tribal Wars. Select the type of military units and enter their number.
 
- ## **Technologies used in the project**
-To create the application I have used:
+## Demo
+
+Try it out - [Click here!](https://kajakopczynska.github.io/military-units-converter/)
+
+## How it works
+
+![Converter GIF](public/militaty-units.converter2.gif)
+
+ ## Technologies used in the project
+
+- REACT
+- JAVA SCRIPT
 - HTML
 - CSS
-- JavaScript
-- Normalize
-- BEM convention
-- ES6+ features
+- STYLED COMPONENTS
 - GIT
-- Markdown
-- React
+- GITHUB
+- VISUAL STUDIO CODE
+
+[![Technologies](https://skillicons.dev/icons?i=react,js,html,css,styledcomponents,git,github,vscode)](https://skillicons.dev)
 
 # Getting Started with Create React App
 
